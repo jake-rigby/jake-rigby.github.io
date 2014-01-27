@@ -1,0 +1,24 @@
+<div class="container" ng-controller="LoginController">
+	<!-- header -->
+	<div class="row">
+		<div class="col-md-12" >
+
+			<c ng-show="user != null" class="brand">Welcome {{user.displayName}}</c>
+			<div >
+				<a href="/auth/google" class="btn btn-info btn-lg" height="150px">Google</a>       		
+				<a href="/auth/facebook" class="btn btn-info btn-lg" height="150px">Facebook</a> <!-- http://microbeharness-8838.onmodulus.net/auth/facebook -->
+				<a ng-click="logout()" ng-show="user != null" class="btn btn-info btn-lg">logout</a>
+			</div>
+
+		</div>
+	</div>
+
+	<!-- body -->
+	<div class="row">
+		<div class="span12">
+
+		{{user.toString()}}
+			
+		</div>
+	</div>
+</div>

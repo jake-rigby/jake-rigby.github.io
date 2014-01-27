@@ -1,0 +1,143 @@
+body{
+  background-color: #000000;
+}
+
+a:hover {
+ cursor:pointer;
+}
+
+/* icons */
+i {
+  margin: 1em;
+}
+
+/* bootstrap grid */
+.pad{
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.row.hero{
+  padding-top: 7em;
+  padding-bottom: 7em;
+}
+
+.row.hero-bottom{
+  padding-bottom: 10em;
+}
+
+.row.section{
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+
+.row.fullwidth{
+  min-width: 500px;
+}
+
+.row.fullheight{
+  height: 100%;
+}
+
+.container-fullwidth {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* components */
+img.media-object{
+  max-width: 64px;
+  max-height: 64px;
+}
+
+ul.nobullets{
+  list-style-type: none;
+}
+
+/* bootstrap color */
+.page-header{
+  color:#d6f7ee;
+  height:50px;
+}
+
+hr {
+  border-top-color:#1e9076;
+}
+
+/* colour scheme d */
+.bg_d{
+  background-color: #171717;
+}
+
+.lead_d{
+  color:#ffffff;
+}
+
+.copy_d{
+  color:#6dd568;
+}
+
+.embed_d{
+  color:#567d57;
+}
+
+/* colour scheme p */
+.bg_p{
+  background-color: #4ad7b5;
+}
+
+.lead_p{
+  color:#ffffff;
+}
+
+.copy_p{
+  color:#0d473a;
+}
+
+.embed_p{
+  color:#1e9076;
+}
+
+.bg_o{
+  background-color: #7481d2;
+}
+
+.lead_o{
+  color:#f7ffb2;
+}
+
+.copy_o{
+  color:#1d4263;
+}
+
+.embed_o{
+  color:#1d4263;
+}
+
+
+.fun1_p{
+  color:#ffa673;
+}
+
+.fun2_p{
+  color:#f0dbf1;
+}
+
+.fun3_p{
+  color:#fffda9;
+}
+
+a > i {
+  color: #1e9076;
+}
+
+/* inline list problme with bootstrap http://stackoverflow.com/questions/10906341/how-to-display-a-list-inline-using-twitters-bootstrap*/
+/*
+ul.list-inline > li, ol.list-inline > li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+*/
