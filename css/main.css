@@ -1,5 +1,5 @@
 body{
-  /*background-color: #000000;*/
+  /*background-color: #eeeeee;*/
 }
 
 a:hover {
@@ -80,6 +80,10 @@ li {
 
 hr {
   border-top-color:#000000;
+}
+
+.bg_white {
+  background-color: #ffffff;
 }
 
 /* colour scheme d 
