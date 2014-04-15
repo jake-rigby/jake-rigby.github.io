@@ -1,9 +1,9 @@
-angular.module('Resume',['Resume.controllers','Resume.services','leaflet-directive'])
+angular.module('Resume',['Resume.controllers','Resume.services'])
 
 .config(['$routeProvider',function($routeProvider){
 	
 	$routeProvider.when('/home' , {
-		templateUrl : 'partials/home.html', 
+		templateUrl : 'partials/home2.html', 
 		controller : 'HomeController'
 	});
 

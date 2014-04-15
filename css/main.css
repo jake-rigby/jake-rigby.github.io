@@ -1,5 +1,5 @@
 body{
-  background-color: #000000;
+  /*background-color: #000000;*/
 }
 
 a:hover {
@@ -17,6 +17,10 @@ i {
   padding-bottom: 2em;
 }
 
+.padtop {
+  padding-top: 2em;
+}
+
 .row.hero{
   padding-top: 7em;
   padding-bottom: 7em;
@@ -24,6 +28,11 @@ i {
 
 .row.hero-bottom{
   padding-bottom: 10em;
+}
+
+
+.row.hero-top{
+  padding-top: 10em;
 }
 
 .row.section{
@@ -52,8 +61,14 @@ img.media-object{
   max-height: 64px;
 }
 
-ul.nobullets{
+/* no bullets */
+ul {
   list-style-type: none;
+}
+
+li {
+  padding-top: 10px;
+  padding-bottom: 3px;
 }
 
 /* bootstrap color */
@@ -63,10 +78,10 @@ ul.nobullets{
 }
 
 hr {
-  border-top-color:#1e9076;
+  border-top-color:#000000;
 }
 
-/* colour scheme d */
+/* colour scheme d 
 .bg_d{
   background-color: #171717;
 }
@@ -83,7 +98,6 @@ hr {
   color:#567d57;
 }
 
-/* colour scheme p */
 .bg_p{
   background-color: #4ad7b5;
 }
@@ -132,12 +146,12 @@ hr {
 a > i {
   color: #1e9076;
 }
-
+*/
 /* inline list problme with bootstrap http://stackoverflow.com/questions/10906341/how-to-display-a-list-inline-using-twitters-bootstrap*/
-/*
+
 ul.list-inline > li, ol.list-inline > li {
     display: inline-block;
-    padding-right: 5px;
-    padding-left: 5px;
+    padding-right: 1em;
+    padding-left: 1em;
+    font-size: 16pt;
 }
-*/
