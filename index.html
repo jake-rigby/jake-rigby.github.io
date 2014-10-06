@@ -1,32 +1,42 @@
 <!DOCTYPE html>
-<html ng-app="Resume">
+<html ng-app="bob">
+	
 	<head>
+
 		<meta charset="utf-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=9" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+		<title>Bob</title>
 		
-		<title>Jake Rigby</title>
-	   
-		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
-		<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
-		<link rel="stylesheet" href="css/main.css"/>
+		<link rel="stylesheet" type="text/css" href="lib/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="lib/font-awesome/css/font-awesome.min.css">
+		<!--link rel="stylesheet" type="text/css" href="css/init.css"-->
+
+		<style type="text/css">
+			.list-group-item:hover {
+				background-color: #fdfdfd;
+			}
+		</style>
+
+		<script type="text/javascript" src="lib/angular-1.2.0-rc.2/angular.js"></script>
 
 	</head>
 
-	<body class="">
+	<body>
 
-		<div ng-view></div>
-		
+		<div ng-view class="page"></div>
+
 		<script type="text/javascript" src="lib/jq.js"></script> 
-		<script type="text/javascript" src="lib/angular.js"></script>
-		<script type="text/javascript" src="lib/socket.io.js"></script>
-		
-		<script type="text/javascript" src="js/resume.js"></script>
-		<script type="text/javascript" src="js/controllers.js"></script>
-		<script type="text/javascript" src="js/services.js"></script>
-		<!--
-		<script type="text/javascript" src="lib/require.js" data-main="js/main"></script>
-		<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
-		-->
+		<script type="text/javascript" src="lib/angular-1.2.0-rc.2/angular-route.js"></script>
+		<script type="text/javascript" src="lib/jr-directives/jr-directives.js"></script>
+		<script type="text/javascript" src="lib/ui-bootstrap-tpls-0.10.0.js"></script>
+		<script type="text/javascript" src="/socket.io/socket.io.js"></script>
+
+		<script type="text/javascript" src="js/socketify.js"></script>
+		<script type="text/javascript" src="js/bob.js"></script>
+
 	</body>
+
 </html>
