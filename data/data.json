@@ -1,0 +1,106 @@
+{
+	"sections": {
+		"about_me": {
+			"title": "About Me",
+			"items": {
+				"in_short": {
+					"title": "In Short",
+					"type": "paragraphs",
+					"content": [
+						"Developer for full-stack Javascript, single-page/ hybrid apps, Android and Web. Highly creative, innovative development. Currently the Android platform engineer for a very successful social games startup.",
+						"Studied Astrophysics, life-long science fan-boy. Ex-pro musician. Hungry for opportunities to expand, understand, learn and improve."
+					]
+				},
+				"goals": {
+					"title": "Goals",
+					"type": "paragraphs",
+					"content": [
+						"To produce experiences and tools that make a genuine difference through the application and automation of enabling technologies. To attain <a href\"http://www.ted.com/talks/mihaly_csikszentmihalyi_on_flow\">flow</a>, contribute with insight and creativity, learn, explore and have fun."
+					]
+				},
+				"skills_story": {
+					"title": "Skills Story",
+					"type": "paragraphs",
+					"content": [
+						"Node.js at the backend, Gulp for build automation, with Bower for client dependencies, not so keen on Browserify but its in my stack for essential modules with small dependency chains like async if I need the core to run at either end.",
+						"Redis as a NoSQL solution for scalable Node clusters. Transport with Express and Socket.io. Angular as the glue at the frontend - on its own or rolled with Ionic for hybrid development - Bootstrap suffices for standard web. I play with Pixi or other WebGL libraries from time to time, also D3.",
+						"The Cordova family is my preference for rapid app development - i.e. Ionic - but I have spent a great deal of time working with native Android applications, often heavilly dependent on the NDK - although I do not claim C as a pro skill, I can fix stuff. I also have vintage experience with Air and Flash, have worked with Facebook platform for years, and a number of advertising and user-acquisition sdks (flurry, tune, nanigans etc) more recently.",
+						"My current focus is the maintenance and improvement of in-house tools at the studio and the development of new ones with the technologies I’ve listed here. I am incorporating continous integration methodologies into our build processes, and attempting to introduce TDD principles into the dev pipe. I have also recently extended the Android workflow to include Amazon platform and continue to improve Playdemic’s Android presence."
+					]
+				}
+			}
+		},
+		"experience": {
+			"title": "Experience",
+			"items": {
+				"build_engineer": {
+					"title": "2015: Amazon and Build",
+					"type": "paragraphs",
+					"content": [
+						"Abstracted the Android shell to allow for other stores, specifically Amazon. This led to the requirement for a comprehensive build system which, pending a move to using Gradle, I implemented in node.js with a variety of tools, refelecting the diverse array of sources the product is drawn from. Primarily a CLI, there is also a graphical frontend (hooked in through a remote socket layer) exposed to the studio network, enabling non-expert builds to the various platforms."
+					]
+				},
+				"android_platform_engineer": {
+					"title": "2014: Android Platform Engineer",
+					"type": "paragraphs",
+					"content": [
+						"Took Village Life (250k DAU, 1.7M MAU) to a global, fully-featured Android release.",
+						"Developed an Android shell app with Facebook connectivity, push notifs (GCM), In-App Billing (Play Store), multiple locales, in-house and third-party analytics libraries (Nanigans, Tune, Adjust), advertising partners (Flurry, Supersonic, Trialpay, Tapjoy). Implemented a JNI native interface for the GL-based engine running the company’s core engine, which was already operational on iOS."
+					]
+				},
+				"lead_developer_village_life": {
+					"title": "2012 - 2014: Lead Developer, Village Life",
+					"type": "paragraphs",
+					"content": [
+						"Building on the success of its debut, Gourmet Ranch, the studio embarked upon a more ambitious project that was to push the boundaries of established social gaming mechanics. I led a team of four Flash developers, working closely with .NET engineers to implement a game design that would deliver the next milestone for the company. After the massively successful launch in November 2012, I continued to expand, maintain and improve the Flash project while a second team produced an iOS version of the game on a portable core engine."
+					]
+				},
+				"senior_developer": {
+					"title": "2010 - 2012: Senior Developer",
+					"type": "paragraphs",
+					"content": [
+						"I began developing on Flash platform in 2009, as a founding member of Playdemic - now one of the UK’s leaders in casual games. We were early entrants into the social market.",
+						"Driven by the success of the initial venture, Gourmet Ranch, I expanded my skill-set from client and UX to build systems, CMS, deployment, frameworks and application architecture."
+					]
+				},
+				"prior_experience": {
+					"title": "Prior Experience",
+					"type": "paragraphs",
+					"content": [
+						"I have led a varied career. Before becoming a programmer, I was a music and sfx artist on many well known first-gen mobile games, short films and commercials. Prior to this, upon completing my masters degree, I was a technical sales consultant with a high-tech laser manufacturer."
+					]
+				}
+			}
+		},
+		"education": {
+			"title": "Education",
+			"items": {
+				"masters": {
+					"type": "course",
+					"title": "Research MSc in Audio Signals Processing (EPSRC funded)",
+					"period": "2002 – 2003",
+					"institution": "Dept. of Instrumentation and Analytical Science, UMIST Manchester"
+				},
+				"bsc": {
+					"type": "course",
+					"title": "BSc in Physics with Astrophysics (2.1)",
+					"period": "1998 – 2002",
+					"institution": "The University of Birmingham"
+				},
+				"bsc": {
+					"type": "course",
+					"title": "A levels; Maths, Physics, Music, Art",
+					"period": "1995 – 1997",
+					"St John Rigby 6th-Form College, Orrell"
+				}
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
